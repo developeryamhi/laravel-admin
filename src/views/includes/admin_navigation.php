@@ -1,0 +1,1 @@
+<?php echo nav(adminNavGroup())->fullNavigation(app("config")->get("laravel-admin::top_title"), "dashboard"); ?>

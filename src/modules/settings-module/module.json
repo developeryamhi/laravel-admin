@@ -1,0 +1,11 @@
+{
+	"name": "Settings Module",
+	"description": "Settings Management Module for Laravel 4.x+",
+	"version": "1.0",
+        "locked": 1,
+        "dependsOn": {
+            "auth-module": "1.x"
+        },
+	"order": 5,
+	"handler_class": "\\Developeryamhi\\SettingsModule\\SettingsModule"
+}

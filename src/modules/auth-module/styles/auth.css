@@ -1,0 +1,17 @@
+
+.suggest-name {
+    font-weight:normal;
+}
+.suggest-group {
+    font-size:13px;
+    font-weight:normal;
+}
+.suggest-username {
+    font-style:italic;
+    font-size:13px;
+    font-weight:normal;
+}
+
+.tmpl-item .twitter-typeahead input {
+    background:#FFF !important;
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Auth Module",
+	"description": "Authentication Module for Laravel 4.x+",
+	"version": "1.0",
+	"order": 0,
+        "locked": 1,
+	"handler_class": "\\Developeryamhi\\AuthModule\\AuthModule",
+        "seeder": [
+            "\\Developeryamhi\\AuthModule\\GroupTableSeeder",
+            "\\Developeryamhi\\AuthModule\\PermissionTableSeeder",
+            "\\Developeryamhi\\AuthModule\\GroupToPermissionTableSeeder",
+            "\\Developeryamhi\\AuthModule\\UserTableSeeder",
+            "\\Developeryamhi\\AuthModule\\UserMetaTableSeeder"
+        ]
+}

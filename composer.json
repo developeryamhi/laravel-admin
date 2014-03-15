@@ -1,0 +1,35 @@
+{
+    "name": "developeryamhi/laravel-admin",
+    "version": "1.0.0-dev",
+    "keywords": ["admin", "laravel"],
+    "description": "Laravel Admin Panel with Modules Management",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Biraj Pandey",
+            "email": "developeryamhi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "require-dev": {
+        "way/generators": "~2"
+    },
+    "suggest": {
+        "way/generators": "Required for modules:generate functionality."
+    },
+    "autoload": {
+        "classmap": [
+            "src/modules/auth-module/migrations",
+            "src/modules/settings-module/migrations"
+        ],
+        "psr-4": {
+            "Developeryamhi\\LaravelAdmin\\": "src/",
+            "Developeryamhi\\AuthModule\\": "src/modules/auth-module/",
+            "Developeryamhi\\SettingsModule\\": "src/modules/settings-module/"
+        }
+    },
+    "minimum-stability": "dev"
+}

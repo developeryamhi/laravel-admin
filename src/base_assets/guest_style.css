@@ -1,0 +1,50 @@
+/*
+ * Default Guest Style
+ */
+
+#body-wrapper.guest-body {
+    margin-top:250px;
+    padding-top:0;
+}
+#body-wrapper.guest-body .guest-logo-seperator {
+    border-left:1px solid #DDD;
+    padding-left:20px;
+}
+#body-wrapper.guest-body .container {
+    width:600px;
+}
+
+.guest-body .site-logo {
+    margin-top:90px;
+    display:inline-block;
+}
+
+
+#body-wrapper.error-body {
+    padding-top:0;
+}
+#body-wrapper.error-body .container {
+    width:80%;
+    word-break:break-all;
+}
+
+@media(max-width:650px) {
+    #body-wrapper.guest-body,
+    #body-wrapper.error-body {
+        margin:0 !important;
+    }
+    #body-wrapper.guest-body .container,
+    #body-wrapper.error-body .container {
+        width:100%;
+        padding:0;
+    }
+    #body-wrapper.guest-body .container .page-wrapper,
+    #body-wrapper.error-body .container .page-wrapper {
+        margin:0;
+        border:0;
+        padding:10px;
+        border-radius:0;
+        -webkit-border-radius:0;
+        -moz-border-radius:0;
+    }
+}
