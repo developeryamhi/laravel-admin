@@ -1,6 +1,5 @@
 {
     "name": "developeryamhi/laravel-admin",
-    "version": "1.0.0",
     "keywords": ["admin", "laravel"],
     "description": "Laravel Admin Panel with Modules Management",
     "license": "MIT",
@@ -31,5 +30,5 @@
             "Developeryamhi\\SettingsModule\\": "src/modules/settings-module/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
